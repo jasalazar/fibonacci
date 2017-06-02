@@ -16,13 +16,17 @@ int fibonacci_fast(int n) {
     fib[0] = 0;
     fib[1] = 1;
     if (n >= 0 && n <= 45){
-    	for (int i = 2; i <= n; ++i)
-		{
-			fib[i] = fib[i-1] + fib[i-2];
-        }
+
+    	for (int i = 2; i <= n; ++i){
+
+			     fib[i] = fib[i-1] + fib[i-2];
+      }
+
 		return fib[n];
     } else {
+
     	return 0;
+      
     }
     return 0;
 }
