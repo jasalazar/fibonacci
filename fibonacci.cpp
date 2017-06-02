@@ -3,13 +3,14 @@
 
 // The following code calls a naive algorithm for computing a Fibonacci number.
 
-
 int fibonacci_naive(int n) {
     if (n <= 1)
         return n;
 
     return fibonacci_naive(n - 1) + fibonacci_naive(n - 2);
 }
+
+// The following code calls a faster algorithm for computing a Fibonacci number.
 
 int fibonacci_fast(int n) {
     int fib[45];
@@ -26,7 +27,7 @@ int fibonacci_fast(int n) {
     } else {
 
     	return 0;
-      
+
     }
     return 0;
 }
