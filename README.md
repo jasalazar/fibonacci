@@ -1,3 +1,3 @@
 # fibonacci
 
-Fibonacci algorythm with O(n) behaviour in C++.
+Fibonacci algorithm with O(n) behaviour in C++.
